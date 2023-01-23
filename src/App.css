@@ -7,11 +7,7 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-  
-  }
-  
-  ::-webkit-scrollbar {
-    width: 0px;
+    scrollbar-width: none;
   }
   
   .right-arrow,
@@ -33,7 +29,7 @@ body {
     transition: 0.3s all ease-in-out;
   }
   
-  .right-arrow {
+  .left-arrow {
     right: 140px;
   }
   
@@ -100,7 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 387px;
+    width: 360px;
     height: 381px;
     text-decoration: none;
   }
