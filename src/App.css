@@ -71,6 +71,7 @@ body {
     padding-bottom: 10px;
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
+    position: relative;
   }
   
   .exercise-card img {
@@ -100,6 +101,8 @@ body {
     height: 381px;
     text-decoration: none;
   }
+
+ 
   
   @media screen and (max-width:1200px) {
     .detail-image {

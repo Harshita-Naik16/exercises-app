@@ -31,6 +31,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       }
 
       setExercises(exercisesData);
+      console.log(exercisesData)
     }
     fetchExercisesdata();
   },[bodyPart])
@@ -54,7 +55,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             <Pagination 
               color='standard'
               shape='rounded'
-              count={Math.ceil(exercises.length / 9)}
+              count={Math.ceil(exercises.length / exercisesPerPage)}
               size='large'
               onChange={(e, value) => paginate(e, value)}
               page={currentPage}

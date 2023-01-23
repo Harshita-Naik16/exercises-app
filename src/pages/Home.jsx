@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import React, { useState } from 'react'
 import Exercises from '../components/Exercises'
 import HeroBanner from '../components/HeroBanner'
