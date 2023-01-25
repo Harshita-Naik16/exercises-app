@@ -23,8 +23,9 @@ body {
     font-size: 25px;
     border-radius: 4px;
     position: absolute;
-    bottom: -20px;
+    bottom: -70px;
     right: 80px;
+    margin-top: 20px;
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
   }
@@ -69,7 +70,6 @@ body {
     justify-content: space-between;
     flex-direction: column;
     padding-bottom: 10px;
-    transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
     position: relative;
   }
